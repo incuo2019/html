@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Лабораторная работа № 6</title>
+</head>
+
+<body>
+    <h1>Лабораторная работа № 6 Немачук Евгений.</h1>
+
+    <h3 align="center">Заполните анкету</h3>
+    <form align="center" onsubmit="return false">
+        <table width="60%" align="center">
+            <tr>
+                <td>Информация о подающем человеке</td>
+                <td>Информация об искомом человеке</td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Пол:</b> <br>
+                    <label for="Male">Мужской</label>
+                    <input type="radio" name="sex" id="Male">
+                    <label for="Female">Женский</label>
+                    <input type="radio" name="sex" id="Female" checked>
+                    <hr>
+                </td>
+                <td>
+                    <b>Пол:</b><br>
+                    <label for="Male2">Мужской</label>
+                    <input type="radio" name="sex2" id="Male2" checked>
+                    <label for="Female2">Женский</label>
+                    <input type="radio" name="sex2" id="Female2">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Возраст:</b><br>
+                    <label for="age">Укажите ваш возраст:</label>
+                    <input type="number" name="age" id="age" min="18" max="90" value="18">
+                    <hr>
+                </td>
+                <td>
+                    <b>Возраст:</b><br>
+                    <label for="age2">Укажите интервал в возрасте:</label>
+                    <input type="number" name="age2" id="age" min="-10" max="10" value="0">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Цвет глаз:</b><br>
+                    <label for="eye">Укажите ваш цвет глаз:</label>
+                    <select name="eye" id="eye">
+                        <option value="green">Зелёные</option>
+                        <option value="blue">Голубые</option>
+                        <option value="gray">Серые</option>
+                        <option value="brown">Карие</option>
+                    </select>
+                    <hr>
+                </td>
+                <td>
+                    <b>Цвет глаз:</b><br>
+                    <label for="eye2">Укажите цвет глаз партнёра:</label>
+                    <select name="eye2" id="eye2">
+                        <option value="green">Зелёные</option>
+                        <option value="blue">Голубые</option>
+                        <option value="gray">Серые</option>
+                        <option value="brown">Карие</option>
+                    </select>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Цвет волос:</b><br>
+                    <label for="hair">Укажите ваш цвет волос:</label>
+                    <select name="hair" id="hair">
+                        <option value="a">Блонд</option>
+                        <option value="b">Русые</option>
+                        <option value="c">Брюнет</option>
+                        <option value="d">Рыжий</option>
+                        <option value="e">Шотен</option>
+                    </select>
+                    <hr>
+                </td>
+                <td>
+                    <b>Цвет волос:</b><br>
+                    <label for="hair2">Укажите цвет волос партнёра:</label>
+                    <select name="hair2" id="hair2">
+                        <option value="a">Блонд</option>
+                        <option value="b">Русые</option>
+                        <option value="c">Брюнет</option>
+                        <option value="d">Рыжий</option>
+                        <option value="e">Шотен</option>
+                    </select>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Рост:</b><br>
+                    <label for="height">Укажите ваш рост:</label>
+                    <input type="number" name="height" id="height" min="100" max="250" value="100">
+                    <hr>
+                </td>
+                <td>
+                    <b>Рост:</b><br>
+                    <label for="height2">Укажите интервал в росте:</label>
+                    <input type="number" name="height2" id="height2" min="-50" max="50" value="0">
+                    <hr>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    <b>Вес:</b><br>
+                    <label for="weight">Укажите ваш вес:</label>
+                    <input type="number" name="weight" id="weight" min="40" max="120" value="40">
+                    <hr>
+                </td>
+                <td>
+                    <b>Вес:</b><br>
+                    <label for="weight2">Укажите интервал в весе:</label>
+                    <input type="number" name="weight2" id="weight2" min="-20" max="20" value="0">
+                    <hr>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    <b>Телосложение:</b><br>
+                    <label for="body">Укажите ваше телосложение:</label>
+                    <select name="body" id="body">
+                        <option value="a">Худое</option>
+                        <option value="b">Среднее</option>
+                        <option value="c">Толстое</option>
+                        <option value="d">Мускулистое</option>
+                    </select>
+                    <hr>
+                </td>
+                <td>
+                    <b>Телосложение:</b><br>
+                    <label for="body2">Укажите телосложение партнёра:</label>
+                    <select name="body2" id="body2">
+                        <option value="a">Худое</option>
+                        <option value="b">Среднее</option>
+                        <option value="c">Толстое</option>
+                        <option value="d">Мускулистое</option>
+                    </select>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Вредные привычки:</b><br>
+                    <label for="bad">Табакокурение</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <label for="bad">Распитие алкогольных напитков</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <label for="bad">Пристрастие к вредной еде</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <label for="bad">Игромания</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <label for="bad">Сквернословие</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <label for="bad">Шопоголизм</label>
+                    <input type="checkbox" name="bad" id="bad"> <br>
+                    <hr>
+                </td>
+                <td>
+                    <b>Вредные привычки партнёра:</b><br>
+                    <label for="bad">Табакокурение</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <label for="bad">Распитие алкогольных напитков</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <label for="bad">Пристрастие к вредной еде</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <label for="bad">Игромания</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <label for="bad">Сквернословие</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <label for="bad">Шопоголизм</label>
+                    <input type="checkbox" name="bad2" id="bad2"> <br>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="button">Отправить</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+        document.querySelector("#button").addEventListener("click", function(event) {
+            var str = "Количество вредных привычек у вас: " + document.querySelectorAll("#bad:checked").length;
+
+            str += "\nКоличество вредных привычек у партнёра: " + document.querySelectorAll("#bad2:checked").length;
+            alert(str);
+        });
+    </script>
+</body>
+
+</html>
