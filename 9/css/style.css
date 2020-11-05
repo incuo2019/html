@@ -1,0 +1,98 @@
+
+body {
+    padding: 0;
+}
+/* ---------- Стили страницы построенной таблицей ---------- */
+table {
+
+    /* Высота на полный экран */
+    height: 100vh;
+
+    /* Ширина 100% */
+    width: 100%;
+
+    /* Выравнивание текста по центру */
+    text-align: center;
+    /* Задний фон */
+    background-color: #aaaaaa;
+}
+
+td.sidebar, td.header, td.footer {
+    /* Задний фон */
+    background-color: #888888;
+
+    /* Внутренние отступы */
+    padding: 20px
+}
+
+td.sidebar {
+    /* Ширина 200px */
+    width: 200px;
+}
+
+td.header, td.footer {
+    /* Высота 100px */
+    height: 100px;
+}
+
+/* ---------- Стили страницы построенной блоками ---------- */
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    /* Выравнивание текста по центру */
+    text-align: center;
+
+    /* Ширина 100% */
+    width: 100%;
+
+    /* Высота на полный экран */
+    height: 100vh;
+}
+
+div.header, div.footer {
+    /* Высота 100px */
+    height: 100px;
+
+    /* Задний фон */
+    background-color: #888888;
+    
+    /* Высота 100px */
+    height: 100px;
+
+    /* Внутренние отступы */
+    padding: 20px
+}
+
+div.row {
+    /* Устанавливаем высоту */
+    height: calc(100vh - 300px);
+    /* Устанавливаем способ отображения */
+    display: flex;
+    /* Устанавливаем выравнивание */
+    text-align: center;
+}
+
+div.sidebar, div.content {
+    /* Задний фон */
+    background-color: #888888;
+}
+
+div.sidebar {
+    /* Внутренние отступы */
+    padding: 20px;
+
+    /* Убираем автоматическую ширину */
+    flex-shrink: 0;
+
+    /* Ширина 200px */
+    width: 200px;
+}
+
+div.content {
+    /* Задний фон */
+    background-color: #aaaaaa;
+}
